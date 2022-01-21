@@ -1,0 +1,73 @@
+body {
+    background-color: #f5f5f5;
+   font-family:cursive;
+   margin: 0;
+   color: #777;
+}
+
+h1{
+    color: rgb(0, 255, 115);
+    font-size: 8rem;
+    text-align: center;
+    opacity: 0.5;
+}
+
+form{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    max-width: 100%;
+    width: 400px;
+    
+}
+
+.input{
+    color: #765;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #d5d5d5;
+
+}
+
+.todos {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.todos li {
+    
+    padding: 1rem;
+    border-top: 1px solid #e5e5e5;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+}
+
+.todos li.completed{
+    color: #b5b5b5;
+    text-decoration: line-through;
+}
+
+small{
+    
+    align-self: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+small.right{
+    color: red;
+}
+
+small.left{
+    color: green;
+}
