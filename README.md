@@ -1,2 +1,3 @@
 # Todo-List
-creato il mio primo Todo list con JavaScript !
+
+created my first Todo list with JavaScript
